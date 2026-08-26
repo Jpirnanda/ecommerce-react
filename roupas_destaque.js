@@ -1,4 +1,4 @@
-const produtosFitness = [
+const produtos = [
   {
     nome: "Camiseta Tech Mesh Respirável",
     preco: 119.9,

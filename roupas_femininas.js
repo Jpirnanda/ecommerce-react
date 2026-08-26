@@ -1,4 +1,4 @@
-const produtos = [
+const produtosFemininos = [
   {
     nome: "Vestido Midi Canelado com Fenda",
     preco: 159.9,
