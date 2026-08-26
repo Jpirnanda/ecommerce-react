@@ -1,0 +1,12 @@
+.cardContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 60%;
+  margin: 0 auto;
+  gap: 2rem;
+}
+
+.cardContainer .col {
+  display: flex;
+  justify-content: center;
+}
