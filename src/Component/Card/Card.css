@@ -1,6 +1,9 @@
 .card {
   max-width: 300px;
   min-width: 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
 }
 
 .card img {
@@ -8,6 +11,12 @@
   height: 400px;
   object-fit: cover;
   position: bottom;
+  border: 4px solid transparent;
+}
+
+.card img:hover {
+  object-view-box: inset(30% 0 0 0);
+  border: 4px solid black;
 }
 
 .cardTitle {
@@ -15,11 +24,49 @@
 }
 
 .cardInfo {
-  padding: 1rem;
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
 }
 
 .rating {
   display: flex;
+  flex-direction: row;
+  margin-bottom: 1rem;
+  gap: 1rem;
+}
+
+.cheio {
+  color: gold;
+}
+
+.vazio {
+  color: rgb(209, 207, 198);
+}
+
+.card button {
+  padding: 0.8rem 1.6rem;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  cursor: pointer;
+}
+
+.card button:hover {
+  background-color: rgb(93, 93, 93);
+}
+
+.buy {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.precoProduto {
+  font-size: 1.5rem;
+  font-weight: 600;
 }
